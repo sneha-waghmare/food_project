@@ -1,0 +1,151 @@
+body{
+  background-color: red;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+
+/* Navigation Section*/
+#navbar{
+  flex-direction: column;
+  /* height: 150px; */
+}
+
+#navbar ul li a{
+  font-size: 1rem;
+  padding: 0 7px;
+}
+/* Home Section  */
+#home{
+  padding: 3px 30px; 
+  margin-top: 13%;
+  height: 600px;
+ 
+}
+#home::before{
+  padding: 3px 120px; 
+  /* margin-top: 20px; */
+  height: 600px;
+
+}
+#home h1{
+  font-size: 2.0rem;
+ /* margin-top: 80px; */
+}
+
+#home p{
+  font-size: 0.9;
+}
+
+#home .h-primary{
+  margin-top: 70px;
+  /* margin-left: 100px; */
+}
+
+.h-primary{
+  color: black;
+  margin-left: 30px;
+}
+#home .h-primary p{
+  font-size: 0.6;
+  /* margin-left: 100px; */
+  /* margin: 0px 20px; */
+}
+/* Services Section  */
+/* #services{
+ flex-direction: column;
+ padding: 15px 20px;
+ margin: 10px 50px;
+} */
+
+#services{
+  flex-direction: column;
+  width: 100%;
+  /* margin-left: 66px; */
+  justify-content: center;
+ align-items: center; 
+ display: flex;
+ /* flex-direction: column; */
+}
+#services .box{
+ padding: 20px -20px;
+ margin: 20px 40px ;
+ height: 100%;
+ width: 500px;
+ /* display: flex; */
+ 
+}
+
+/* #sercvices-container .h-primary{
+  margin-left: 100px;
+} */
+/* Clients section */
+
+#client-section .h-primary{
+  margin-top: 173px;
+  /* margin-bottom: -30px; */
+} 
+
+#client-section::before{
+    
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+ 
+}
+#client-section::before{
+  flex-wrap: wrap;
+  /* margin: 3%; */
+  /* width: 100%; */
+  /* overflow: hidden; */
+  height: 300px;
+  width: 100%;
+  /* margin-top: -30px; */
+  
+  /* border: 10px solid white; */
+  /* font-size: 2.0rem; */
+  /* width: 656px; */
+  margin-top: -70px;
+
+}
+#clients{
+  /* margin-bottom: 300px; */
+  /* overflow: hidden; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: cen/ter; */
+  /* flex-wrap: wrap; */
+  height: 70%;
+}
+#clients img{
+ /* height: 30px; */
+ height: 53px;
+ /* width: 45px; */
+ 
+ /* position: relative; */
+}
+
+.client-item{
+  /* padding: 5px; */
+  padding: 10px;
+}
+/* Contact us section  */
+#contact{
+  width: 100%;
+  margin-top: -155px;
+  /* margin-right: 0px; */
+  /* overflow: hidden; */
+  width: 100%;
+
+}
+
+#contact-box form{
+  width: 70%;
+  
+}
+
+/* Footer  */
+footer{
+  overflow: hidden;
+  width: 100%;
+}
